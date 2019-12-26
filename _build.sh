@@ -1,4 +1,4 @@
-docker build -t ozlevka/jenkins:latest .
+docker build -t securebrowsing/jenkins:latest .
 TAG=`date +"%y%m%d-%H.%M"`
-docker tag ozlevka/jenkins:latest "ozlevka/jenkins:$TAG"
-docker push "ozlevka/jenkins:$TAG"
+docker tag securebrowsing/jenkins:latest "securebrowsing/jenkins:$TAG"
+docker push "securebrowsing/jenkins:$TAG"
